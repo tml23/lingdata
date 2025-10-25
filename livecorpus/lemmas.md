@@ -17,7 +17,6 @@ for a, b in zip(words, my_stem):
     start, end = a_parts[1], a_parts[2]
     lemma, morph = b_parts[1], b_parts[2]
 
-
     lemmas.append(f"lemma@{layer}\t{start}\t{end}\t{lemma}")
     morphs.append(f"morph@{layer}\t{start}\t{end}\t{morph}")
 
